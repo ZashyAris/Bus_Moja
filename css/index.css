@@ -47,7 +47,7 @@ a,button{
     left: 0;
     width:100%;
     height:4px;
-    background:#ff9900;
+    background:rgba(10, 116, 116, 0.747);
     transform: scaleX(0);
     transform-origin: right;
     transition: transform .5s;   
@@ -63,7 +63,7 @@ a,button{
     right: 0;
     width:100%;
     height:4px;
-    background:#ff9900;
+    background:rgba(10, 116, 116, 0.747);
     transform: scaleX(0);
     transform-origin: left;
     transition: transform .5s;   
@@ -73,39 +73,42 @@ a,button{
     transform-origin: right;
 }
 .welcome{
-    background: linear-gradient(#5c18039c, #2e1c01d2) ,url(../images/bg1.jpeg) no-repeat center center fixed; 
+    background: linear-gradient(rgba(0, 0, 0, 0.61), rgba(0, 0, 0, 0.568)) ,url(../images/bg1.jpeg) no-repeat center center fixed; 
     background-size: cover;
     height: 100vh;
 }
 .content{
     width: 800px;
-    margin: 6% 25%;
-    text-align: center;
+    margin: 20px 25%;
 }
 .content h1{
     color: beige;
-    font-size: 100px;
+    font-size: 50px;
     font-weight: 100;
     font-family: 'Didact Gothic', sans-serif;
-    line-height: 70px;
+    line-height: 20px;
+    margin-left: 200px;
 }
 .content p{
     color: beige;
-    font-size: 30px;
+    font-size: 20px;
     font-family: 'Dancing Script', cursive;
+    margin-left: 160px;
+    margin-top: 20px;
+
 }
-.content a{
+.button{
     border: none;
     padding: 6px 22px;
     text-decoration: none;
     font-size: 18px; 
-    background-color:#ff9900;
+    background-color:rgba(10, 116, 116, 0.747);
     border-radius: 50px;
-    display: inline-block;
+    transition: all 0.5s ease;
 }
-.content a:hover{
-    background-color: #ff9900be;
-    color:white;
+.button:hover{
+    background-color:rgba(0, 255, 255, 0.575);
+    transition: all 0.5s ease;
 }
 .bottom{
     height: 100vh;
@@ -113,7 +116,7 @@ a,button{
 .slides{
     height: 60vh;
 }
-.pizza img{
+.about img{
     width: 600px;
     height: 60vh;
     border-top-right-radius: 15% 50%;
@@ -133,7 +136,7 @@ a,button{
 }
 .footer{
     color:white;
-    background: linear-gradient(#d33a0c9d, #c77c0cb4);
+    background: linear-gradient(rgba(10, 116, 116, 0.747), rgba(4, 36, 36, 0.658));
     height: 40vh;
 }	
 .fcontent{
@@ -189,6 +192,3 @@ a,button{
 .footer-bottom{
     text-align: center;
 }	
-#addcart{
-    margin: 0px 20px 0px 20px;
-}
