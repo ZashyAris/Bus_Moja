@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+  <link href="css/index.css" rel="stylesheet" type="text/css">
+  <title>Bus Moja</title>
+</head>
+<body>
+  <div class="container-fluid">
+    <div class="welcome">
+      <div class="navbar">
+        <div class="navhead">
+          <img class="img" src="./images/logo2.png" alt="logo">
+        </div>
+        <div class="navbody">
+          <ul>
+            <li><a class="a" href="#">Home</a></li>
+            <li><a class="a" href="#">About Us</a></li>
+            <li><a class="a" href="#">Book</a></li>
+            <li><a class="a" href="#">Contact Us</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="content">
+        <h1>Bus Moja</h1>
+        <p>Welcome to  Bus Moja online booking site></p>
+        <div class="col-md-6 item">
+            <div class="form_left">
+                <img src="./images/form.jpg" alt="form">
+            </div>
+            <div class="form_right">
+                <h2>Tudishi Custom Pizza</h2>
+                <form class="pizzaform" id="pizzaform">
+                    <div class="size">
+                        <select id="size" class="input" required>
+                            <option value="" hidden disabled selected value>Pizza size....</option>
+                            <option value="600">Small</option>
+                            <option value="800">Medium</option>
+                            <option value="1000">Large</option>
+                        </select>
+                    </div>
+                    <div class="crust">
+                        <select id="crust" class="input" required>
+                            <option value="" hidden disabled selected value>Pizza crust.....</option>
+                            <option value="300">Crispy</option>
+                            <option value="200">Stuffed</option>
+                            <option value="100">Gluten Free</option>
+                        </select>
+                    </div>
+                    <div class="toppings">
+                        <select id="topping" class="input" required>
+                            <option value="" hidden disabled selected value>Pizza topping....</option>
+                            <option value="200">Pepperoni</option>
+                            <option value="200">Mushrooms</option>
+                            <option value="200">Sausage</option>
+                            <option value="200">Onions</option>
+                            <option value="200">Bacons</option>
+                            <option value="200">Extra Cheese</option>
+                        </select>
+                    </div>
+                    <div class="quantity">
+                        <input class="input" type="number" id="quantity" placeholder="Quantity..." required>
+                    </div>
+                    <input type="submit" value="Add topping" class="button" id="addtopping">
+                    <input type="submit" value="Order" class="button" id="addcart">
+                    <input type="button" class="refresh button" value="Refresh">
+                </form>
+            </div>
+        </div>
+      </div>
+    </div>
+    <div class="bottom">
+      <div class="row slides">
+        <div class="col-md-6 pizza">
+          <img src="./images/bg3.jpeg" alt="pizza">
+        </div>
+        <div class="col-md-6 text-center side">
+          <h1 id="myabout">About Us</h1>
+          <h2>We Bus Moja</h2>
+          <p>
+            Bus Moja is an online platform that allows booking of bus tickets.
+            We enable travelers to reserve seats and make payments in a convenient and timely way. 
+            Try Bus Moja today!!
+          </p>
+        </div>
+      </div>
+      <div class="footer" id="mycontact">
+        <div class="fcontent">
+          <div class="fsection about">
+
+            <h2>Bus Moja</h2>
+            <p>
+              Bus Moja is an online platform that allows booking of bus tickets.
+              We enable travelers to reserve seats and make payments in a convenient and timely way. 
+            </p>
+          </div>
+          <div class="fsection links">
+            <h2>Quick Links</h2>
+            <ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">About Us</a></li>
+              <li><a href="#">Book a bus</a></li>
+              <li><a href="#">Contact Us</a></li>
+            </ul>
+          </div>
+          <div class="fsection email">
+            <h2>Email Us</h2>
+            <form>
+              <input type="email" class="femail" name="email" placeholder="Your email address">
+              <textarea name="message" class="fmessage" placeholder="Your message....."></textarea>
+              <button type="submit" class="fbutton">
+                <i class="fa fa-envelope"></i>
+                Send</button>
+            </form>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          &copy; Bus Moja 2019 | Lenny Dennis Macharia
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+<script src="js/jquery-3.4.1.js"></script>
+<script src="js/scripts.js"></script>
+</html>
