@@ -1,4 +1,4 @@
-holder{    
+#holder{    
     height:200px;    
     width:550px;
     background-color:#F5F5F5;
@@ -6,51 +6,52 @@ holder{
     margin-left:10px;   
     }
 
-
     #place {
     position:relative;
     margin:7px;
     }
-
+    
     #place a{
     font-size:0.6em;
     }
 
-
-    #place li{
+    #place li
+    {
      list-style: none outside none;
      position: absolute;   
-    }  
+    }    
 
     #place li:hover{
     background-color:yellow;      
     } 
 
     #place .seat{
-    background:url("images/available_seat_img.gif") no-repeat scroll 0 0 transparent;
+    background:url("../images/available.png") no-repeat scroll 0 0 transparent;
     height:33px;
     width:33px;
     display:block;   
+    margin: 2%;
     }
-
 
     #place .selectedSeat{ 
-    background-image:url("images/booked_seat_img.gif");          
+    background-image:url("../images/booked.jpeg"); 
+    margin: 2%;         
     }
-    
+
     #place .selectingSeat{ 
-    background-image:url("images/selected_seat_img.gif");        
+    background-image:url("../images/selected.jpeg"); 
+    margin: 2%;       
     }
 
     #place .row-3, #place .row-4{
     margin-top:10px;
     }
 
-    
     #seatDescription li{
-    verticle-align:middle;    
+    vertical-align: middle; 
     list-style: none outside none;
     padding-left:35px;
     height:35px;
     float:left;
+    margin: 12px;
     }
