@@ -31,9 +31,9 @@
             </div>
             <div class="form_right">
                 <h2>Book</h2>
-                <form class="pizzaform" id="pizzaform">
+                <form class="busform" name="busform" id="busform" action="./manage/bus.php" method="POST" autocomplete="off">
                     <div class="departure">
-                        <select id="departure" class="input" required>
+                        <select name="origin" id="origin" class="input" required>
                             <option value="" hidden disabled selected value>Departing from....</option>
                             <option value="">Nairobi</option>
                             <option value="">Kisumu</option>
@@ -41,8 +41,8 @@
                             <option value="">Mombasa</option>
                         </select>
                     </div>
-                    <div class="crust">
-                        <select id="crust" class="input" required>
+                    <div class="destination">
+                        <select name="destination" id="destination" class="input" required>
                             <option value="" hidden disabled selected value>Going to....</option>
                             <option value="">Nairobi</option>
                             <option value="">Kisumu</option>
@@ -51,7 +51,7 @@
                         </select>
                     </div>
                     <div class="date">
-                        <input class="input" type="date" id="date" required>
+                        <input name="date" class="input" type="date" id="date" required>
                     </div>
                     <input type="submit" value="Book" class="button" id="bookbus">
                 </form>
