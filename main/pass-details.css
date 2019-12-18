@@ -138,3 +138,21 @@ footer{
 .footer-bottom{
     text-align: center;
 }	
+/* .form_left{
+    width: 45%;
+    background: rgba(20, 20, 20, .8);
+    border-right: 2px solid rgba(10, 180, 180, 0.4);
+}
+.form_left img{
+    border-radius: 50%;
+    opacity: 0.8;
+    height: 200px;
+    width: 200px;
+    margin-top: 30px;
+
+}
+.form_right{
+    width: 55%;
+    padding: 10px 0;
+    background: rgba(10, 180, 180, 0.1);
+} */
